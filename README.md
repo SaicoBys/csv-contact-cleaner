@@ -30,11 +30,11 @@
 
   Example Results
 
-  📈 Original contacts: 11
-  🔄 After deduplication: 10
-  ❌ Duplicates removed: 1
-  ✉️ Valid emails: 7
-  ⚠️ Invalid emails: 3
+  📈 Original contacts: 51
+  🔄 After deduplication: 49
+  ❌ Duplicates removed: 2
+  ✉️ Valid emails: 44
+  ⚠️ Invalid emails: 5
 
   Perfect for sales teams, marketing databases, and CRM cleanup.
 
