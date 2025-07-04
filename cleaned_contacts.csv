@@ -1,0 +1,11 @@
+  name,email,phone,company,phone_cleaned,email_valid
+  John Doe,john@example.com,(555) 123-4567,Tech Corp,5551234567,True
+  Jane Smith,jane@company.com,555.987.6543,Marketing Inc,5559876543,True
+  Bob Wilson,bob@startup.com,+1-555-111-2222,Startup LLC,+15551112222,True
+  Alice Brown,alice@invalid,555 333 4444,Design Co,5553334444,False
+  Mike Johnson,mike@tech.com,(555) 999-8888,Tech Corp,5559998888,True
+  Sarah Davis,sarah@marketing.com,555-777-1234,Marketing Inc,5557771234,True
+  John Doe,john.doe@example.com,555-123-4567,Tech Corp,5551234567,True
+  Lisa Wilson,lisa@startup.com,555.111.2222,Startup LLC,5551112222,True
+  Tom Brown,tom@invalid-email,555 444 5555,Design Co,5554445555,False
+  EOF,,,,,False

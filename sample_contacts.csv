@@ -1,0 +1,12 @@
+  name,email,phone,company
+  John Doe,john@example.com,(555) 123-4567,Tech Corp
+  Jane Smith,jane@company.com,555.987.6543,Marketing Inc
+  John Doe,john@example.com,555-123-4567,Tech Corp
+  Bob Wilson,bob@startup.com,+1-555-111-2222,Startup LLC
+  Alice Brown,alice@invalid,555 333 4444,Design Co
+  Mike Johnson,mike@tech.com,(555) 999-8888,Tech Corp
+  Sarah Davis,sarah@marketing.com,555-777-1234,Marketing Inc
+  John Doe,john.doe@example.com,555-123-4567,Tech Corp
+  Lisa Wilson,lisa@startup.com,555.111.2222,Startup LLC
+  Tom Brown,tom@invalid-email,555 444 5555,Design Co
+  EOF
