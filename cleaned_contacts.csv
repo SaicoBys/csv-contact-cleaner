@@ -1,4 +1,4 @@
-  name,email,phone,company,phone_cleaned,email_valid
+name,email,phone,company,phone_cleaned,email_valid
   John Doe,john@example.com,(555) 123-4567,Tech Corp,5551234567,True
   Jane Smith,jane@company.com,555.987.6543,Marketing Inc,5559876543,True
   Bob Wilson,bob@startup.com,+1-555-111-2222,Startup LLC,+15551112222,True
@@ -8,4 +8,43 @@
   John Doe,john.doe@example.com,555-123-4567,Tech Corp,5551234567,True
   Lisa Wilson,lisa@startup.com,555.111.2222,Startup LLC,5551112222,True
   Tom Brown,tom@invalid-email,555 444 5555,Design Co,5554445555,False
-  EOF,,,,,False
+  Emma Garcia,emma@digitalagency.com,(555) 456-7890,Digital Agency,5554567890,True
+  David Lee,david.lee@consulting.com,555-789-0123,Consulting Group,5557890123,True
+  Jennifer White,jennifer@retailcorp.com,+1-555-234-5678,Retail Corp,+15552345678,True
+  Michael Chen,mchen@fintech.com,555.345.6789,FinTech Solutions,5553456789,True
+  Amanda Rodriguez,amanda@healthtech.com,(555) 567-8901,HealthTech Inc,5555678901,True
+  Daniel Kim,daniel@ecommerce.co,555-678-9012,E-commerce Plus,5556789012,True
+  Jessica Taylor,jessica@mediacompany.com,555 789 0123,Media Company,5557890123,True
+  Christopher Martinez,chris@saascompany.com,+1-555-890-1234,SaaS Company,+15558901234,True
+  Nicole Anderson,nicole@nonprofit.org,(555) 901-2345,Nonprofit Org,5559012345,True
+  Ryan Thompson,ryan@construction.com,555.012.3456,Construction LLC,5550123456,True
+  Emily Johnson,emily@lawfirm.com,555-123-4567,Law Firm Partners,5551234567,True
+  Brandon Davis,brandon@restaurant.com,555 234 5678,Restaurant Group,5552345678,True
+  Ashley Wilson,ashley@realestate.com,+1-555-345-6789,Real Estate Co,+15553456789,True
+  Kevin Garcia,kevin@automotive.com,(555) 456-7890,Automotive Inc,5554567890,True
+  Melissa Brown,melissa@fashion.com,555.567.8901,Fashion Brand,5555678901,True
+  Andrew Miller,andrew@insurance.com,555-678-9012,Insurance Group,5556789012,True
+  Stephanie Jones,stephanie@education.org,555 789 0123,Education Foundation,5557890123,True
+  Justin Williams,justin@logistics.com,+1-555-890-1234,Logistics Corp,+15558901234,True
+  Rachel Taylor,rachel@pharmaceutical.com,(555) 901-2345,Pharma Solutions,5559012345,True
+  Matthew Anderson,matthew@manufacturing.com,555.012.3456,Manufacturing Inc,5550123456,True
+  Samantha Thomas,samantha@entertainment.com,555-123-4567,Entertainment Co,5551234567,True
+  Daniel Jackson,daniel@aerospace.com,555 234 5678,Aerospace Tech,5552345678,True
+  Lauren White,lauren@beauty.com,+1-555-345-6789,Beauty Products,+15553456789,True
+  Jonathan Lewis,jonathan@energy.com,(555) 456-7890,Energy Solutions,5554567890,True
+  Megan Harris,megan@travel.com,555.567.8901,Travel Agency,5555678901,True
+  Christopher Clark,chris@sports.com,555-678-9012,Sports Equipment,5556789012,True
+  Amanda Walker,amanda@agriculture.com,555 789 0123,Agriculture Corp,5557890123,True
+  Tyler Young,tyler@mining.com,+1-555-890-1234,Mining Operations,+15558901234,True
+  Kimberly Allen,kimberly@textiles.com,(555) 901-2345,Textiles Inc,5559012345,True
+  Alexander King,alex@chemicals.com,555.012.3456,Chemical Solutions,5550123456,True
+  Jennifer Scott,jennifer@packaging.com,555-123-4567,Packaging Corp,5551234567,True
+  Ryan Green,ryan@renewable.com,555 234 5678,Renewable Energy,5552345678,True
+  Sarah Adams,sarah@biotech.com,+1-555-345-6789,BioTech Labs,+15553456789,True
+  Michael Baker,michael@publishing.com,(555) 456-7890,Publishing House,5554567890,True
+  Jessica Nelson,jessica@telecommunications.com,555.567.8901,Telecom Solutions,5555678901,True
+  David Carter,david@security.com,555-678-9012,Security Systems,5556789012,True
+  Emma Mitchell,emma@invalid-domain,555 789 0123,Marketing Agency,5557890123,False
+  Brandon Roberts,brandon@consulting,+1-555-890-1234,Business Consulting,+15558901234,False
+  Ashley Turner,ashley@,555-901-2345,Design Studio,5559012345,False
+  Kevin Phillips,kevin@duplicate.com,(555) 012-3456,Tech Startup,5550123456,True
