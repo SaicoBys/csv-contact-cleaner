@@ -1,4 +1,48 @@
-  echo "contact_cleaner_env/" >> .gitignore
-  echo "*.pyc" >> .gitignore
-  echo "__pycache__/" >> .gitignore
-  echo ".DS_Store" >> .gitignore
+# Virtual Environment
+contact_cleaner_env/
+venv/
+env/
+
+# Python Cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Data Files (potentially sensitive)
+data/
+*.csv
+*.xlsx
+*.json
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Portfolio folder (if contains sensitive client data)
+portfolio/
+
+# UpWork Proposals (private business information)
+*UPWORK_PROPOSAL*
+docs/UPWORK_PROPOSAL.md
