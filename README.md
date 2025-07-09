@@ -66,4 +66,4 @@ Perfect for sales teams, marketing databases, and CRM cleanup.
 5. Run: `python3 src/business_contact_cleaner.py`
 
 ---
-*Professional data processing solution trusted by sales teams and marketing professionals*
+*Professional data processing solution for sales teams and marketing professionals*
