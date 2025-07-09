@@ -11,33 +11,33 @@ def clean_contact_list(input_file):
     """
     print("🔄 Loading contact data...")
 
-    # Cargar datos
+    # Load data
     df = pd.read_csv(input_file)
     original_count = len(df)
 
     print(f"📊 Original contacts: {original_count}")
 
-    # Remover duplicados por email
-    df_clean = df.drop_duplicates(subset=['email'], keep='first')
+    # Remove duplicates by email
+    df_clean = df.drop_duplicates(subset=['email'], keep='first').copy()
     after_dedup = len(df_clean)
 
-    # Limpiar teléfonos (mantener solo números y +)
+    # Clean phone numbers (keep only numbers and +)
     if 'phone' in df_clean.columns:
-        df_clean['phone_cleaned'] = df_clean['phone'].str.replace(r'[^\d+]', '', regex=True)
+        df_clean.loc[:, 'phone_cleaned'] = df_clean['phone'].str.replace(r'[^\d+]', '', regex=True)
 
-    # Validar emails - LÍNEA CORREGIDA
+    # Validate emails
     email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
 
-    df_clean['email_valid'] = df_clean['email'].str.match(email_pattern, na=False)
+    df_clean.loc[:, 'email_valid'] = df_clean['email'].str.match(email_pattern, na=False)
 
     valid_emails = df_clean['email_valid'].sum()
     invalid_emails = len(df_clean) - valid_emails
 
-    # Guardar resultado
+    # Save results
     output_file = 'cleaned_contacts.csv'
     df_clean.to_csv(output_file, index=False)
 
-    # Reporte de resultados
+    # Results report
     print("\n" + "="*50)
     print("✅ CLEANING COMPLETE!")
     print("="*50)
@@ -53,7 +53,7 @@ def clean_contact_list(input_file):
 
 def main():
     """Main function to run the cleaner"""
-    input_file = 'sample_contacts.csv'
+    input_file = '../data/demo_contacts.csv'
 
     try:
         result = clean_contact_list(input_file)

@@ -19,8 +19,9 @@ ehthumbs.db
 Thumbs.db
 
 # Data Files (potentially sensitive)
-data/
-*.csv
+src/cleaned_contacts.csv
+src/large_business_contacts.csv
+generate_large_dataset.py
 *.xlsx
 *.json
 
@@ -46,3 +47,5 @@ portfolio/
 # UpWork Proposals (private business information)
 *UPWORK_PROPOSAL*
 docs/UPWORK_PROPOSAL.md
+docs/README.md
+src/contact_dashboard.py
